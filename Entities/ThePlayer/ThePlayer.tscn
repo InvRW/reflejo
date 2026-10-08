@@ -1,11 +1,14 @@
 [gd_scene format=3 uid="uid://cejporcy0v01n"]
 
+[ext_resource type="Script" uid="uid://djbisxl4a6yhy" path="res://Entities/ThePlayer/the_player.gd" id="1_yd6nq"]
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_4cb3p"]
 size = Vector3(0.5, 2, 0.5)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_2qovt"]
 
 [node name="ThePlayer" type="Node3D" unique_id=1136473482]
+script = ExtResource("1_yd6nq")
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1465844874]
 
